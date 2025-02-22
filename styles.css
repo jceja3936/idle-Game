@@ -1,8 +1,9 @@
 body {
     display: grid;
-    grid-template-columns: 60vw 40vw;
+    grid-template-columns: 30vw 35vw auto;
     text-align: center;
-
+    background-color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace;
 }
 
 .button-side {
@@ -14,12 +15,41 @@ body {
 }
 
 .theButton {
-    text-align: center;
     height: fit-content;
     width: fit-content;
-    background-color: blueviolet;
+    background-color: lightgreen;
     border: 0px;
     padding: 100px;
     border-radius: 100px;
 
+}
+
+.theButton:hover {
+    background-color: darkkhaki;
+}
+
+.theButton:active {
+    background-color: darkgreen;
+}
+
+
+.clickPowa {
+    background-color: lightgreen;
+    color: white;
+
+    border: 1px solid burlywood;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+
+}
+
+.clickPowa:hover {
+    background-color: darkkhaki;
+}
+
+.clickPowa:active {
+    background-color: darkgreen;
 }
