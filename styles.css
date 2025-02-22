@@ -1,3 +1,25 @@
-.yD {
-    color: red;
+body {
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    text-align: center;
+
+}
+
+.button-side {
+    border: 1px solid red;
+}
+
+.other-side {
+    border: 1px solid red;
+}
+
+.theButton {
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: blueviolet;
+    border: 0px;
+    padding: 100px;
+    border-radius: 100px;
+
 }
